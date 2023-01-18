@@ -22,6 +22,3 @@ When the "Collection" tab is accessed via the navigation bar, the user gets an o
 - HTML
 - CSS
 - JS
-
-### Tools
-- 
