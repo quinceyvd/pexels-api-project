@@ -1,0 +1,270 @@
+/** Import Inter font **/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(243, 243, 243);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 20px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: rgb(253, 253, 253);
+}
+
+a {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(27, 153, 181);
+}
+
+a:hover {
+    color: rgb(25, 113, 133);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: rgb(70, 70, 70)
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgb(70, 70, 70)
+}
+
+b {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: rgb(70, 70, 70)
+}
+
+hr {
+    border: 1px solid rgb(200, 200, 200);
+}
+
+nav a {
+    color: rgb(70, 70, 70)
+}
+
+#description {
+    font-size: 0.8em;
+}
+
+.smallAnchor {
+    text-decoration: underline;
+    font-weight: 200;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5%;
+    margin-top: 25%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    text-align: left;
+
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 300px;
+
+    background-color: rgb(253, 253, 253);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.contentWrapper {
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: center;
+}
+
+.content img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    border-radius: 30px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(253, 253, 253);
+}
+
+.card img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 10px;
+}
+
+.cardButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.rateBtn {
+    padding: 15px;
+    font-size: 38px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px;
+    border: none;
+    width: 85px;
+    height: 85px;
+
+    background-color: rgb(230, 230, 230);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    transition: background-color 0.5s ease;
+}
+
+.content:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.rateBtn:active,
+.binBtn:active {
+    background-color: #c4c4c4;
+}
+
+.binBtn {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 50%;
+    text-align: center;
+    border: none;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+
+
+    background-color: rgb(230, 230, 230);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    transition: background-color 0.5s ease;
+}
+
+.binBtn:hover,
+.rateBtn:hover {
+    cursor: pointer;
+    background-color: #c4c4c4;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 30%;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70%;
+}
+
+@media only screen and (min-width: 768px) {
+    .content {
+        flex-direction: row;
+    }
+
+    .item1 {
+        width: 30%;
+        padding: 10px;
+    }
+
+    .item2 {
+        width: 70%;
+        padding: 10px;
+    }
+
+    .main {
+        margin-top: 5%;
+    }
+
+    .card img {
+        width: 550px;
+        height: 350px;
+    }
+
+    .contentWrapper {
+        margin-top: 10px;
+    }
+
+    .card {
+        margin-top: 150px;;
+    }
+
+    .content img {
+        width: 150px;
+        height: 150px;
+        border-radius: 25px;
+
+    }
+
+    .content {
+        font-size: 1.5em;
+        width: 550px;
+    }
+
+    .binBtn {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+}
