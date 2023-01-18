@@ -6,7 +6,7 @@ The images get saved to the user's `localStorage`, so there are no back-end tech
 ### Setup
 The webapp can be launched by running the project on a local webserver. I personally used both [XAMPP](https://www.apachefriends.org/) and [VS Code Live Server](https://ritwickdey.github.io/vscode-live-server/) during development. 
 
-Before entering the webpage, the placeholder value for the API key must be replaced with a real Pexels API key, otherwise the script has no images to display. The placeholder value is stored on line 3 of [index.js](index.js#L3). Change the string's value from `"PEXELS_API_KEY"` to a string containing the actual key.
+Before entering the webpage, the placeholder value for the API key must be replaced with a real Pexels API key, otherwise the script has no images to display. The placeholder value is stored on line 3 of [index.js](index.js#L3). Change the string's value from `"PEXELS_API_KEY"` to a string containing an actual key.
 
 ### How to use
 #### Explore page
