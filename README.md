@@ -3,8 +3,10 @@ This is a front-end project I made to practice my JS skills using the Fetch API,
 
 The images get saved to the user's `localStorage`, so there are no back-end techniques used to keep track of liked photos. The Collection page later retrieves the data from localStorage and displays the saved pictures on the webpage.
 
-### Setup
-The webapp can be launched by running the project on a local webserver. I personally used both [XAMPP](https://www.apachefriends.org/) and [VS Code Live Server](https://ritwickdey.github.io/vscode-live-server/) during development. 
+### How to access
+The webapp is publicly available via [this link](https://quinceyvd-pexels-api.netlify.app/).
+
+The project can also be ran locally by installing the repository and running it via a local webserver. I personally used both [XAMPP](https://www.apachefriends.org/) and [VS Code Live Server](https://ritwickdey.github.io/vscode-live-server/) during development. 
 
 ### How to use
 #### Landing page
