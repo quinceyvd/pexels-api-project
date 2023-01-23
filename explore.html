@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="explore.html">EXPLORE</a>
+        <a href="collection.html">COLLECTION</a>
+    </nav>
+
+    <!-- Main content -->
+    <div class="main">
+        <div class="card">
+            <img id="img" src="placeholder" alt="Image from Pexels" />
+            <div class="cardInfo">
+                <a id="name"></a>
+                <p id="description"></p>
+            </div>
+
+            <div class="cardButtons">
+                <button class="rateBtn" id="favoriteBtn" onclick="window.location.reload();">❤️</button>
+                <button class="rateBtn" id="downvoteBtn" onclick="window.location.reload();">🙃</button>
+            </div>
+        </div>
+    </div>
+
+    <p align="center">← <a class="smallAnchor" href="index.html">Change API key</a></p>
+
+    <p style="position: fixed; bottom: 0; text-align: left">Photos provided by <a class="smallAnchor"
+    href="https://www.pexels.com/">Pexels</a></p>
+
+    <script type="module" src="explore.js"></script>
+</body>
+</html>

@@ -119,6 +119,76 @@ nav a {
     border-radius: 15px;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.formContent {
+    padding: 5px;
+}
+
+.formContent2 {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.unhide {
+    text-align: center;
+    display: block;
+    color: rgb(202, 30, 30);
+    margin-bottom: 15px;
+}
+a {
+color: rgb(27, 153, 181);
+}
+
+input {
+    border-radius: 15px;
+    border: none;
+    background-color: #dddddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 1rem;
+}
+
+input:hover {
+    background-color: #cccccc;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+    border-radius: 30px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(253, 253, 253);
+}
+
+.submitBtn {
+    color:rgb(240, 240, 240);
+    background-color: rgb(27, 153, 181);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 6rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submitBtn:hover {
+    background-color: rgb(25, 113, 133);
+    cursor: pointer;
+}
+
 .card {
     display: flex;
     flex-direction: column;
