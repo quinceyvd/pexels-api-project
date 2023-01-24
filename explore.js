@@ -45,11 +45,23 @@ const getData = async () => {
         link.style.color = "white";
         let message3 = document.createTextNode("← Back");
         link.appendChild(message3);
+
+        let link2 = document.createElement("a");
+        link2.href = "collection.html";
+        link2.style.display = "block";
+        link2.style.textAlign = "center";
+        link2.style.color = "white";
+        link2.style.marginTop = "10px";
+
+        let message4 = document.createTextNode("← View collection");
+        link2.appendChild(message4);
         
 
         errorDiv.appendChild(par);
         errorDiv.appendChild(par2);
         errorDiv.appendChild(link);
+        errorDiv.appendChild(link2);
+
         document.body.appendChild(errorDiv);
 
     } else {
