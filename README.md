@@ -1,4 +1,4 @@
-# [Pexels API project](quinceyvd-pexels-api.netlify.app/)
+# [Pexels API project](https://quinceyvd-pexels-api.netlify.app/)
 This is a front-end project I made to practice my JS skills using the Fetch API, and to solidify my CSS skills by creating a responsive design. The web app lets users "like"  or "downvote" a picture. The "liked" pictures get stored into a collection users can revisit later. The images are provided by [Pexels' Image & Video API](https://www.pexels.com/api/).
 
 The images get saved to the user's `localStorage`, so there are no back-end techniques used to keep track of liked photos. The Collection page later retrieves the data from localStorage and displays the saved pictures on the webpage.
